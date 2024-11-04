@@ -1,0 +1,78 @@
+body{
+    background-color: #979c9ed2;
+}
+
+h1{
+    font-size: xx-large;
+    color: white;
+}
+
+.logo img {
+    height: 100px;
+    }
+
+    
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#979c9ed2;
+    padding: 10px 20px;
+    color: rgb(217, 227, 245);
+    }
+
+    
+nav.menu ul {
+    list-style: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    }
+
+    nav.menu ul li {
+        margin-left: 20px;
+        }
+    
+  
+section {
+    background: no-repeat image-set(url("https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/403970/capsule_616x353.jpg?t=1562768426"));
+    background-size: cover;
+}
+
+h5{
+    color: rgb(209, 206, 206);
+    font-style:italic;
+}
+
+article {
+    font-size: x-large;
+    box-sizing: border-box;
+    min-height: 900px;
+    padding: 5%;
+    color:white;
+}
+    
+    .container{
+        max-width: 100%;
+        padding: 50px 20px 20px;
+        background-color: rgba(156, 156, 163, 0.863);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 80px;
+        }
+        
+        .box {
+        text-align: center;
+        width: 500px;
+        height: 400px;
+        background-color: white;
+        border: 3px solid white;
+        }
+        
+        .box img {
+        width: 500px ;
+        height: 350px; 
+        }
+       

@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.logo{
+    height: 100px;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: larger;
+    color: rgb(255, 8, 0);
+}
+
+section {
+    background: no-repeat image-set(url("https://images5.alphacoders.com/135/thumb-1920-1353021.png"));
+    background-size: cover;
+    background-color: rgb(25, 43, 77);
+}
+
+article {
+    box-sizing: border-box;
+    min-height: 900px;
+    padding: 10%;
+    color:white;
+}
+
+article h1 {
+    font-size: xx-large;
+}
+
+article p {
+    max-width: 500px;
+    text-align: justify;
+}
+
+footer {
+    text-align: right;
+    font-size: large;
+    padding: 20px;
+}
